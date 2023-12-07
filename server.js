@@ -12,7 +12,7 @@ app.use(cors({}))
 //user Router
 app.use('/users', userRouter)
 
-app.listen(2020,'127.0.0.3', async ()=>{
+                 app.listen(5000, async ()=>{
     await connectToDB()
-    console.log("server is running at http://127.0.0.3:2020")
+    console.log("server is running ")
 })
